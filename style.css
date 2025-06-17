@@ -1,0 +1,869 @@
+body {
+    background-color: #f0f0f0;
+    background-image: url('images/welcome_bg.png'); 
+    background-size: cover; 
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: 'Press Start 2P', cursive;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    
+  
+}
+
+
+/*Welcome page*/
+
+#welcome-page {
+    background-image: url('images/welcome_bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+}
+.about-me-short-box { /*this is me*/
+    position: absolute;
+    top: 500px;
+    left: 750px;
+    width: 500px;
+    height: 270px;
+    padding: 20px;
+
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 10px 10px 0px 0px black;
+    text-align: left;
+    font-family: 'Press Start 2P', cursive;
+}
+.header-section { 
+    position: absolute;
+    top: 175px;
+    left: 350px;
+    width: 1000px;
+    height: 90px;
+    padding: 15px;
+
+    margin: 0; 
+
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 4px 4px 10px 10px rgb(255 255 255 / 0%);
+
+    text-align: left;
+}
+.capybara-content { /*capybara*/
+    position: absolute; 
+    top: 500px;
+    left: 350px;
+    width: 300px;
+    padding: 2px;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 10px 10px 0px 0px black;
+    height: auto; 
+}
+
+.capybara-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.intro-main-box { /*Hi Im folk*/
+    position: absolute;
+    top: 320px;
+    left: 350px; 
+    width: 1200px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 2px solid black;
+    box-shadow: 10px 10px 0px 0px black;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+
+.pixel-button {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 10px 5px 0px 0px #000000;
+    transition: all 0.1s ease-in-out;
+    text-align: center;
+}
+
+.pixel-button:hover {
+    box-shadow: 2px 2px 0px 0px black; 
+    transform: translate(2px, 2px);
+}
+
+.start-button {
+    position: absolute; 
+    top: 740px; 
+    left: 1350px; 
+}
+.intro-main-box h2 { 
+    font-size: 72px;
+    margin-bottom: 5px;
+    margin-top: 0;
+    padding: 0;
+}
+
+.neon-blue-text {
+    color: #00BFFF;
+    text-shadow:
+        1px 1px 0px white,
+       -1px 1px 0px white,
+        1px -1px 0px white,
+       -1px -1px 0px white,
+        0px 1px 0px white,
+        0px -1px 0px white,
+        1px 0px 0px white,
+       -1px 0px 0px white,
+
+        2px 2px 0px #00BFFF,
+       -2px 2px 0px #00BFFF,
+        2px -2px 0px #00BFFF,
+       -2px -2px 0px #00BFFF,
+        0px 2px 0px #00BFFF,
+        0px -2px 0px #00BFFF,
+        2px 0px 0px #00BFFF,
+       -2px 0px 0px #00BFFF,
+       
+      
+        -3px -3px 0px #00BFFF,
+        -4px -4px 0px #00BFFF,
+
+  
+        0 0 5px #00BFFF, 
+        0 0 10px #00BFFF;
+}
+.neon-pink-text {
+
+    color: #FF6EC7;
+    text-shadow:
+
+        1px 1px 0px white,
+       -1px 1px 0px white,
+        1px -1px 0px white,
+       -1px -1px 0px white,
+        0px 1px 0px white,
+        0px -1px 0px white,
+        1px 0px 0px white,
+       -1px 0px 0px white,
+
+
+        2px 2px 0px #FF6EC7,
+       -2px 2px 0px #FF6EC7,
+        2px -2px 0px #FF6EC7,
+       -2px -2px 0px #FF6EC7,
+        0px 2px 0px #FF6EC7,
+        0px -2px 0px #FF6EC7,
+        2px 0px 0px #FF6EC7,
+       -2px 0px 0px #FF6EC7,
+       
+
+        -3px -3px 0px #FF6EC7,
+        -4px -4px 0px #FF6EC7,
+
+
+        0 0 5px #FF6EC7,
+        0 0 10px #FF6EC7;
+}
+
+ .green-text {
+    color: #07cb07;
+    font-size: 28px;
+    text-shadow:
+
+        1px 1px 0px white,
+        -1px 1px 0px white,
+        1px -1px 0px white,
+        -1px -1px 0px white,
+        0px 1px 0px white,
+        0px -1px 0px white,
+        1px 0px 0px white,
+        -1px 0px 0px white,
+
+
+        2px 2px 0px #07cb07,
+        -2px 2px 0px #07cb07,
+        2px -2px 0px #07cb07,
+        -2px -2px 0px #07cb07,
+        0px 2px 0px #07cb07,
+        0px -2px 0px #07cb07,
+        2px 0px 0px #07cb07,
+        -2px 0px 0px #07cb07,
+
+  
+        -3px -3px 0px #07cb07,
+        -4px -4px 0px #07cb07,
+
+     
+        0 0 5px #07cb07,
+        0 0 10px #07cb07;
+}
+.purple-text {
+    color: #8A2BE2; 
+    font-size: 28px; 
+    text-shadow:
+        1px 1px 0px white,
+        -1px 1px 0px white,
+        1px -1px 0px white,
+        1px -1px 0px white,
+        0px 1px 0px white,
+        0px -1px 0px white,
+        1px 0px 0px white,
+        -1px 0px 0px white,
+
+        /* เงาสีม่วงทึบ */
+        2px 2px 0px #8A2BE2,
+        -2px 2px 0px #8A2BE2,
+        2px -2px 0px #8A2BE2,
+        -2px -2px 0px #8A2BE2,
+        0px 2px 0px #8A2BE2,
+        0px -2px 0px #8A2BE2,
+        2px 0px 0px #8A2BE2,
+        -2px 0px 0px #8A2BE2,
+
+    
+        -3px -3px 0px #8A2BE2,
+        -4px -4px 0px #8A2BE2,
+
+
+        0 0 5px #8A2BE2,
+        0 0 10px #8A2BE2;
+}
+
+
+/*style for about.html*/
+
+#about-detailed-page {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 30px;
+    padding: 20px; 
+    background-color: transparent;
+    position: relative;
+}
+
+.info-box, .image-box {
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 10px 10px 0px 0px black;
+    padding: 20px; 
+    height: fit-content;
+    text-align: left;
+}
+
+.info-box.left-column {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    height: 800px;
+}
+
+.image-box.top-right-image-box {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 1px;
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+
+
+}
+
+.image-box.top-right-image-box img {
+    max-width: 100%; 
+    height: 400px; 
+    display: block;
+    width: 100%;
+    height: auto;
+
+    object-fit: cover;
+    height:100%;
+    display: block;
+}
+
+
+.info-box.bottom-right-work-box {
+    grid-column: 2;
+    grid-row: 2; 
+    height: 300px;
+}
+
+
+.info-box h2 {
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    position: relative;
+    top: -5px;
+     font-family: 'Press Start 2P', cursive;
+
+}
+
+
+.info-box h3 {
+    font-size: 28px; 
+    margin-top: 40px;
+    margin-bottom: 5px;
+    position: relative; 
+    top: -3px;
+     font-family: 'Press Start 2P', cursive;
+ 
+}
+
+
+.info-box p {
+    font-size: 20px;
+    line-height: 2;
+    margin-top: 20px;
+    color: black;
+     font-family: 'Press Start 2P', cursive;
+}
+
+
+.info-box ul {
+    list-style: none;
+    font-size: 32px; 
+    line-height: 2;
+    padding-left: 0;
+    margin-top: 15px;
+     font-family: 'Press Start 2P', cursive;
+}
+
+
+.info-box ul li {
+    font-size: 20px;
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
+     font-family: 'Press Start 2P', cursive;
+}
+
+.navigation-bottom-right {
+    grid-column: 1 / span 2; 
+    grid-row: 3; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    padding-top: 20px;
+}
+
+.pixel-button {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border: 2px solid white; 
+    padding: 10px 20px;
+    text-decoration: none; 
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px; 
+    cursor: pointer;
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.7); 
+    margin-left: 15px;
+    transition: all 0.1s ease-in-out; 
+}
+
+.pixel-button:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 0px 0px black;
+    transform: translate(2px, 2px);
+}
+
+
+.next-button {
+    margin-top: 90px;
+    width: 900px; 
+    height: 50px;
+    margin-left: -20px;
+    font-size: 32px;
+    align-items: center;
+}
+
+/*CSS for Portfolio HTML*/
+
+#portfolio-page {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 40px;
+    padding: 50px;
+    min-height: 100vh;
+    box-sizing: border-box;
+
+}
+
+.search-box {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 10px 10px 0px 0px black;
+    background-color: white;
+    padding: 10px 15px;
+    width: 578px;
+    height: 80px;
+    justify-self: end;
+
+    top: 100px;
+
+
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    flex-grow: 1; 
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+    padding: 0;
+    margin-right: 10px;
+    background-color: transparent;
+}
+
+.search-icon {
+    font-size: 24px;
+    color: black;
+}
+
+.project-container {
+    grid-column: 1;
+    grid-row: 1 / span 2; 
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+    padding-top: 100px;
+    top: -50px;
+}
+
+.project-box {
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 10px 10px 0px 0px black;
+    padding: 20px 30px;
+    text-align: left;
+    min-height: 800px;
+    width: 100%;
+    box-sizing: border-box;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-details-content {
+    padding: 0 10px;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.tools-section-box {
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 10px 10px 0px 0px rgb(255, 255, 255);
+    padding: 15px 20px;
+    margin-top: auto;
+    align-self: flex-start;
+    width: calc(100% - 4px);
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tools-section-box h3 {
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tools-list {
+    font-size: 20px;
+    color: #555;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+.project-box h2 {
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.error-box {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    box-shadow: 10px 10px 0px 0px black;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 600px;
+    height: 500px;
+    box-sizing: border-box;
+    left: 1250px;
+    top: 232px;
+}
+
+.window-header {
+    background-color: #eee;
+    border-bottom: 2px solid black;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    min-height: 30px;
+}
+
+.window-icon, .window-title {
+    flex-grow: 1; 
+}
+
+.window-controls {
+    display: flex;
+    gap: 5px; 
+}
+
+.minimize-btn,
+.maximize-btn,
+.close-btn {
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    background-color: #ccc;
+    cursor: pointer;
+    position: relative;
+}
+
+.close-btn {
+    background-color: #FF5555;
+}
+.close-btn::before,
+.close-btn::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.close-btn::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+
+.error-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+}
+
+.error-content h1 {
+    font-size: 72px;
+    margin: 0;
+    line-height: 1;
+}
+
+.portfolio-link-text {
+        margin-top: 500px;
+        margin-bottom: 30px;
+    }
+
+    .portfolio-link-text{
+        font-size: 24px;
+        text-decoration: none;
+    }
+
+        .error-content h1 {
+        font-size: 56px;
+        padding:
+    }
+
+    
+    .error-box {
+        grid-column: 2;
+        grid-row: 2;
+        height: 700px;
+        justify-content: space-between;
+    }
+
+@media (max-width: 900px) {
+    #portfolio-page {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .search-box {
+        grid-column: 1;
+        grid-row: 1;
+        width: 100%;
+        justify-self: stretch;
+    }
+
+    .project-container {
+        grid-column: 1;
+        grid-row: 2;
+        padding-top: 0;
+        top: 0;
+    }
+
+
+    .project-box h2 {
+        font-size: 36px;
+    }
+
+    .description-text, .tools-list {
+        font-size: 16px;
+    }
+
+    .tools-section-box h3 { 
+        font-size: 28px;
+    }
+
+}
+
+/*contact css*/
+
+/* --- Contacts Page Specific Styles --- */
+
+#contact-page {
+    display: grid;
+    /* แบ่งเป็น 2 คอลัมน์: คอลัมน์ซ้ายสำหรับข้อมูลติดต่อ, คอลัมน์ขวาสำหรับกล่องอื่นๆ */
+    grid-template-columns: 2fr 1.5fr; /* ปรับสัดส่วนตามรูปภาพ */
+    grid-template-rows: 1fr; /* มีแค่ 1 แถวใหญ่ */
+    gap: 40px; /* ระยะห่างระหว่าง Grid items */
+    padding: 50px;
+    min-height: 100vh;
+    box-sizing: border-box;
+    position: relative; /* สำคัญ: เพื่อให้ absolute elements อ้างอิงได้ */
+    background-color: transparent; /* ให้เห็น background ของ body */
+}
+
+/* --- Contact Info Box (กล่องซ้าย) --- */
+.contact-info-box {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 10px 10px 0px 0px black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* จัดเนื้อหาให้กระจายเต็มพื้นที่ */
+    align-items: flex-start;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px; /* ระยะห่างระหว่างแต่ละ item */
+}
+
+.contact-item .icon {
+    font-size: 40px; /* ขนาด icon */
+    line-height: 1; /* เพื่อให้ icon ไม่เกินขอบ */
+}
+
+.contact-item p {
+    font-size: 24px; /* ขนาดข้อความ */
+    margin: 0; /* ลบ margin เริ่มต้นของ p */
+    color: black;
+}
+
+.quote-box {
+    margin-top: auto; /* ดัน quote-box ไปอยู่ด้านล่างสุดของ contact-info-box */
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.7);
+    align-self: flex-start; /* จัดให้อยู่ซ้ายล่าง */
+}
+
+.quote-box p {
+    font-size: 20px;
+    margin: 0;
+    text-align: left;
+}
+
+/* --- Right Column (สำหรับกล่อง Contacts Header, Connect Box, Thanks Button) --- */
+.right-column-contacts {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* ระยะห่างระหว่างกล่องย่อยในคอลัมน์นี้ */
+    align-items: flex-start; /* จัดเรียงองค์ประกอบไปทางซ้าย */
+}
+
+/* --- Contacts Header Box --- */
+.contacts-header-box {
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 10px 10px 0px 0px black;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* จัดให้ title กับ icon แยกกัน */
+    width: 100%; /* ให้เต็มความกว้างของคอลัมน์ 2 */
+    box-sizing: border-box; /* ให้ padding ไม่เพิ่มขนาดรวม */
+}
+
+.contacts-header-box .contacts-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 32px;
+    margin: 0;
+    color: black;
+}
+
+/* search-icon เรามีอยู่แล้วใน style.css สำหรับ .search-box คุณสามารถใช้ reuse ได้
+   ถ้าต้องการขนาดต่างกัน ให้สร้าง class ใหม่สำหรับ icon นี้ */
+/* .contacts-header-box .search-icon {
+    font-size: 28px;
+    color: black;
+} */
+
+
+/* --- Connect Box --- */
+.connect-box {
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 10px 10px 0px 0px black;
+    padding: 20px 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.connect-box p {
+    margin: 5px 0;
+    font-size: 36px; /* ปรับขนาดให้เหมาะสมกับรูป */
+    line-height: 1.2;
+}
+
+/* Neon text colors - คุณน่าจะมี class เหล่านี้อยู่แล้วใน style.css */
+/*
+.neon-blue-text {
+    color: #00FFFF;
+    text-shadow: 0 0 5px #00FFFF, 0 0 10px #00FFFF;
+}
+
+.neon-pink-text {
+    color: #FF00FF;
+    text-shadow: 0 0 5px #FF00FF, 0 0 10px #FF00FF;
+}
+*/
+
+/* --- Thanks Button --- */
+.thanks-button-container {
+    margin-top: auto; /* ดันปุ่ม Thanks ไปอยู่ด้านล่างสุดของ right-column-contacts */
+    width: 100%; /* ให้ปุ่มคอนเทนเนอร์เต็มความกว้าง */
+    display: flex;
+    justify-content: flex-end; /* จัดปุ่มไปทางขวา */
+}
+
+.pixel-button.thanks-button {
+    /* คุณสมบัติปุ่ม pixel-button มาตรฐานจะถูกนำมาใช้ */
+    /* ถ้าต้องการปรับขนาดหรือสีเฉพาะปุ่ม Thanks */
+    font-size: 32px; /* ขนาดตามรูป */
+    padding: 15px 30px; /* ปรับ padding */
+    width: auto; /* ให้กว้างตามเนื้อหา */
+    margin-right: 0; /* ลบ margin-left 15px ที่มาจาก .pixel-button ถ้าไม่ต้องการ */
+    box-shadow: 10px 10px 0px 0px black; /* ปรับ shadow ให้คล้ายในรูป */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 900px) {
+    #contact-page {
+        grid-template-columns: 1fr; /* ใน Mobile ให้มี 1 คอลัมน์ */
+        grid-template-rows: auto auto auto; /* 3 แถวหลัก: search-box, project-container, error-box */
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .contact-info-box {
+        grid-column: 1;
+        grid-row: 1; /* อยู่แถวแรกใน mobile */
+        padding: 20px;
+    }
+
+    .contact-item {
+        margin-bottom: 15px;
+    }
+
+    .contact-item .icon {
+        font-size: 32px;
+    }
+
+    .contact-item p {
+        font-size: 20px;
+    }
+
+    .quote-box {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .right-column-contacts {
+        grid-column: 1;
+        grid-row: 2; /* อยู่แถวที่ 2 ใน mobile */
+        gap: 20px;
+    }
+
+    .contacts-header-box .contacts-title {
+        font-size: 24px;
+    }
+
+    .connect-box p {
+        font-size: 28px;
+    }
+
+    .pixel-button.thanks-button {
+        font-size: 24px;
+        padding: 10px 20px;
+        margin-right: 0; /* ตรวจสอบให้แน่ใจว่าไม่มี margin เกินใน mobile */
+    }
+
+    .thanks-button-container {
+        justify-content: center; /* จัดปุ่ม Thanks ให้อยู่ตรงกลางใน Mobile */
+    }
+}
